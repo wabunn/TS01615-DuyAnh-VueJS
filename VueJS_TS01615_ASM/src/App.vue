@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <RouterLink class="navbar-brand" to="/">ASM VueJS</RouterLink>
+        <RouterLink class="navbar-brand" to="/"><img src="/images/fpt.png" alt="Logo" width="80" height="50"></RouterLink>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -17,13 +17,13 @@ import { RouterLink, RouterView } from 'vue-router'
             </li>
             <li class="nav-item">
               <RouterLink class="nav-link" to="/profile">Tài khoản</RouterLink>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
               <RouterLink class="btn btn-outline-light ms-2" to="/login">Đăng nhập</RouterLink>
-            </li>
+              </li>
             <li class="nav-item">
               <RouterLink class="btn btn-primary ms-2" to="/register">Đăng ký</RouterLink>
-            </li>
+              </li>
           </ul>
         </div>
       </div>
